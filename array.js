@@ -19,3 +19,14 @@ cars.shift();
 
 //unshift add array element from the first
 cars.unshift("toyota");
+
+// includes to check the array element
+console.log(cars.includes("noah"));
+// indexOf find the element index number
+console.log(cars.indexOf("audi"));
+// cars.slice(1,5) include 1 upto 4
+// array concate , join
+//combinig two array
+const bus = ["miami", "asia", "royal"];
+const combin = cars.concat(bus);
+console.log(combin);
