@@ -13,3 +13,6 @@ console.log(typeof name);
 // number
 var price = 555;
 console.log(typeof price);
+
+// variable naming convention, i prefer always use camel case
+var myCurrentAddress = "Dhaka";

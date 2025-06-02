@@ -77,7 +77,7 @@ if (isLeader) {
 const isPassed = false;
 // if(isPassed === false)
 // if we want conditionally shows the negative than we can also use conditional not operator !
-if (isPassed) {
+if (!isPassed) {
   console.log("You need to study more");
 } else {
   console.log("You are good");
