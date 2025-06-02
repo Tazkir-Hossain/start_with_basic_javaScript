@@ -33,3 +33,21 @@ const values = Object.values(person); // return object values
 console.log(person.address.country);
 // delete object
 delete person.address;
+/////////////loop in object/////////////
+const mobile = {
+  brand: "samsung",
+  model: "s27 ultra",
+  price: 150000,
+  color: "black",
+};
+// for of: array
+// for in: object
+for (const prop in mobile) {
+  console.log(prop);
+  console.log(mobile[prop]);
+}
+const keys1 = Object.keys(mobile);
+console.log(keys1);
+for (const key of keys1) {
+  console.log(key, ":", mobile[key]);
+}
