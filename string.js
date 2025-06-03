@@ -63,7 +63,7 @@ for (const letter of sentence1) {
 }
 console.log(reverse);
 // reverse string method 2
-for (let i; i < sentence1.length; i++) {
+for (let i = 0; i < sentence1.length; i++) {
   const letter = sentence1[i];
   reverse = letter + reverse;
 }
